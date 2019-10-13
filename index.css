@@ -1,0 +1,52 @@
+html {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#table {
+    margin: 15px;
+    z-index: 1;
+    position: absolute;
+}
+
+#table td {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #A49393;
+    background-color: #D3C8C8;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+#cover {
+    margin: 15px;
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    visibility: hidden;
+}
+
+#menu {
+    margin: 20px;
+}
+
+button {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    width: 109px;
+    text-decoration: none;
+    outline:none;
+    border: 1px solid #D3C8C8;
+    padding: 2px;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+#scores {
+    font-size: 20px;
+    margin-top: 400px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="minesweeper.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="content">
+    <div id="menu">
+
+        <div>
+            Name
+            <input id="name" type="text" style="width: 4.65rem">
+            <button id="newGameButton" onclick="newGame()" type="button">New Game</button>
+        </div>
+
+        <div>
+            Mines
+            <input id="mineAmount" type="number" style="width: 4.5rem;">
+            <button id="saveGameButton" onclick="saveGame()" type="button">Save Game</button>
+        </div >
+
+        <div>
+            Board size:
+                <select id="boardSize">
+                    <option value="6">6</option>
+                    <option value="9">9</option>
+                    <option value="16">16</option>
+                </select>
+            <button id="loadGameButton" onclick="loadGame()" type="button">Load Game</button>
+        </div>
+
+    </div>
+
+    <button id="scoreboard" onclick="location.href='http://dijkstra.cs.ttu.ee/~krjunu/cgi-bin/prax3/Results.py';">Scoreboard</button>
+    <div id="myDiv"></div>
+    <div style="position: relative">
+        <div id="table"></div>
+        <div id="cover"></div>
+    </div>
+</div>
+<div id = "scores">
+</div>
+</body>
+</html>
